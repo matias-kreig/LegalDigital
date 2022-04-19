@@ -1,0 +1,580 @@
+/* Google Fonts */
+
+/* font-family: 'Red Hat Mono', monospace;
+font-family: 'Work Sans', sans-serif; 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*--------HEADER---------------------------------*/
+
+/* -------HEADER-------------------------------- */
+
+
+.header{
+    background-color:orangered;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    border: solid 1px;
+}
+
+.bannerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header img{
+    width: 100px;
+}
+
+.header__nav{
+    text-align: center;
+}
+
+.header__nav__ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 35px;
+    margin-top: 20px;
+    margin-right: 15px;
+   
+}
+
+.header__nav__li{
+    padding: 5px;
+    border: solid 1px;
+    background-color: orange;
+    border-radius: 5%;
+}
+
+.titulo__index{
+    font-size: 35px;
+    /* text-align: center; */
+    background-color: rgb(255, 68, 0);
+    color: white;
+    margin-top: 10px;
+    /* padding-top: 20px; */
+    font-family:'Red Hat Mono', monospace;
+}
+
+
+/*-----------MAIN--------------------------------*/
+
+/* ----------MAIN------------------------------- */
+
+
+main{
+    background-color: pink;
+}
+
+.divGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.divGridImagen{
+    margin-top: 10px;
+}
+
+.main__imagen{
+    width: 250px;
+}
+
+/* main {
+background-color:#f5bbb1;
+    width: 100vw;
+} */
+/* .main section{
+ border: solid 1px;
+    background-color:orange;
+   width: 400px;
+    height: 500px; 
+     margin: 15px;  
+} */
+/* #main__p{
+    
+    font-size: 24px;
+    text-align: center;
+    background-color: #ff7500;
+    font-family: 'Work Sans', sans-serif; 
+    border: solid 1px;  
+} */
+/* .main section h2{
+ 
+    text-align: center;
+    font-family: 'Red Hat Mono', monospace;
+    margin: 1px;
+    padding: 5PX; 
+   } */
+/* .main h4{
+   text-align: center; 
+    width: auto; 
+} */
+/* .main section p{
+ border:solid 1px ;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 3%; 
+     margin: 15px;
+    background-color: white;
+    font-size: 12px; 
+     width: auto; 
+} */
+/* .divGrid{ */
+/*     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 35px;
+    background-color:#f5bbb1;
+    display: flex;
+    justify-content: space-between;} */
+/* .divGridImagen{ */
+/*     width: 250px;
+    height: 250px;} */
+
+.palabrasTitulo{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 15px;
+}
+
+.palabrasTitulo p{
+    border: solid 1px ;
+    background-color: #ff7500;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+
+} 
+
+.tituloNovedades h2{
+    border: solid 1px black ;
+    background-color: #ff7500;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+} 
+
+.noticiasGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+}
+
+.noticias__Grid__div{
+    border: solid 1px;
+    width: 400px;
+    background-color: #ff7500;
+    margin: 25px;
+}
+
+.imagenDiv{
+    border: solid 1px;
+    width: 250px;
+
+}
+
+.noticias__Grid__div h2{
+    text-align: center;
+    border: solid 1px;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.noticias__Grid__div h4{
+    text-align: center;
+    
+    font-family: 'Work Sans', sans-serif;
+}
+
+.noticias__Grid__div p{
+    
+    background-color: white;
+    margin: 5px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+ 
+
+/* .noticiasGrid img{
+   width: 350px;
+    height: 250px;
+    border: solid 1px; 
+    margin-top: 10px;
+    margin-left: 30px; 
+    
+} */
+/* .noticiasGrid{
+  width: auto;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+} */
+/* .noticiasGrid div{
+    border: solid 1px;
+} */
+
+
+/*------------FOOTER--------------------------- */
+
+/* -----------FOOTER---------------------------- */
+
+
+.footer{
+    background-color:orangered;
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    bottom: 0;
+    border: solid 1px;
+}
+
+.footer__ul{
+    display: inline-block;
+    display: flex;
+    justify-content:space-evenly
+}
+
+.footer__ul__li{
+    display: inline-block;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer a{
+    color: rgb(6, 6, 88);
+}
+
+
+/* --------Main Nosotros--------------------- */
+
+/* --------Main Nosotros--------------------- */
+
+.main__nosotros{
+/* display: grid; */
+
+}
+
+.main__nosotros__section{
+
+}
+.main__nosotros img{
+    margin: 10px;
+    padding: 25px;
+    width: 250px;
+    height: 200px;
+}
+.main__nosotros h2{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(252, 93, 35);
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+}
+.main__nosotros__section h4{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+}
+.main__nosotros__section p{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(214, 164, 70);
+}
+.mainNosotrosGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+
+}
+.mainNosotrosGrid__h4{
+    grid-area: 1 / 1 / 2 / 6;
+}
+.mainNosotrosGrid__uno{
+    grid-area: 2 / 1 / 3 / 6;
+}
+
+.mainNosotrosGrid__dos{
+    grid-area: 3 / 1 / 4 / 3; 
+}
+.mainNosotrosGrid__tres{
+    grid-area: 3 / 4 / 4 / 6;
+}
+.mainNosotrosGrid__cuatro{
+    grid-area: 4 / 1 / 5 / 3; 
+}
+.mainNosotrosGrid__cinco{
+    grid-area: 4 / 4 / 5 / 6;
+}
+
+.mainNosotrosGrid__img{
+    grid-area: 3 / 3 / 5 / 4;
+}
+/*-------- MAIN SERVICIOS--------------------- */
+
+/*-------- MAIN SERVICIOS--------------------- */
+
+
+.main__servicios{
+
+}
+.main__servicios__section{
+
+}
+.main__servicios img{
+    margin: 10px;
+    padding: 25px;
+    width: 250px;
+    height: 200px;
+}
+.main__servicios h2{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(252, 93, 35);
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+}
+.main__servicios__section p{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(214, 164, 70);
+}
+
+
+/* --------MAIN NOVEDADES---------------------- */
+
+/* --------MAIN NOVEDADES---------------------- */
+
+
+.main__novedades{
+
+}
+.main__novedades h2{
+text-align: center;
+margin: 15px;
+padding: 15px;
+background-color: rgb(252, 93, 35);
+font-family: 'Red Hat Mono', monospace;
+color: white;
+}
+.main__novedades__section{
+border: solid 1px;
+}
+.main__novedades h3{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: orange;
+    font-family: 'Red Hat Mono', monospace;
+}
+.main__novedades h4{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: orangered;
+}
+.main__novedades img{
+margin: 15px;
+padding: 15px;
+}
+.main__novedades p{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(214, 164, 70);
+}
+.novedades__imagen{
+    margin: 10px;
+    padding: 25px;
+    width: 250px;
+    height: 200px;  
+}
+
+
+/* --------MAIN CONTACTO----------------------- */
+
+/* --------MAIN CONTACTO----------------------- */
+
+
+.main__contacto{
+
+}
+.main__contacto h2{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(252, 93, 35);
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+}
+.main__contacto img{
+    margin: 10px;
+    padding: 25px;
+    width: 250px;
+    height: 200px; 
+}
+.main__contacto p{
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border: solid 1px;
+    background-color: orangered;
+}
+.main__contacto__form{
+    text-align: center;
+    margin: 15px;
+    padding: 15px; 
+    border: solid 1px;
+}
+.main__contacto iframe{
+
+
+}
+/* Noticias */
+.noticias h5{
+text-align: center;
+font-weight: 600;
+font-size: large;
+
+}
+
+
+/* ---- @MEDIA @MEDIA @MEDIA ---- */
+
+/* ---- @MEDIA @MEDIA @MEDIA ---- */
+
+@media only screen and (max-width: 320px) {
+    
+    .header{
+        background-color:orangered;
+        width: 100vw;
+        position: sticky;
+        top: 0;
+        border: solid 1px;
+    }
+    
+    .bannerGrid{
+/*      display: grid;
+        grid-template-rows:  1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between */
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header__nav__ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        /* display: inline-block; */
+        display: flex;
+        /* flex-direction: column; */
+        text-align: center  ;
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+    
+    .divGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .divGridImagen{
+     /*    width: 100px; */
+     display: block;
+     margin: auto;
+    }
+    
+    .header__logo{
+        width: 100px;
+        display: block;
+       margin: auto;
+    }
+        
+    .titulo__index{
+        /* font-size: 35px; */
+        text-align: center;
+        color: white;
+        /* margin:auto; */
+        font-family:'Red Hat Mono', monospace;
+        display: block;
+        margin: auto;
+    }
+    
+    .noticiasGrid{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .noticias__Grid__div{
+        width: 250px;
+    }
+    
+    .imagenDiv{
+        width: 200px;
+    }
+    .mainNosotrosGrid{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .mainNosotrosGrid__h4{
+        grid-area: 1 / 3 / 2 / 4;
+}
+    .mainNosotrosGrid__uno{
+        grid-area: 2 / 3 / 3 / 4;
+}
+    .mainNosotrosGrid__dos{
+        grid-area: 3 / 3 / 4 / 4;
+}
+    .mainNosotrosGrid__tres{
+        grid-area: 4 / 3 / 5 / 4;
+}
+    .mainNosotrosGrid__cuatro{
+        grid-area: 5 / 3 / 6 / 4; 
+}
+    .mainNosotrosGrid__cinco{
+        grid-area: 6 / 3 / 7 / 4; 
+}
+.mainNosotrosGrid__img{
+    display: none;
+}
+}
