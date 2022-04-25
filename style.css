@@ -16,7 +16,10 @@ a {
     color: black;
 }
 
-
+.main{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(230,149,63,1) 99%, rgba(217,134,0,1) 100%);
+}
 /*--------HEADER---------------------------------*/
 
 /* -------HEADER-------------------------------- */
